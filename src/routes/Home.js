@@ -13,7 +13,7 @@ function Home() {
         image={HomeImg}
         head="takumbohla"
         text="bringing you the perfect kitchen buddies"
-        url="/takumbohla/ingredients"
+        url="/takumbohla/#/ingredients"
         classname="cont-text"
       />
       <div className="feature-text">
