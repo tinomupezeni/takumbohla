@@ -5,7 +5,7 @@ function Footer(){
       <div className='footer'>
          <div className='left'>
             <h1>takumbohla</h1>
-            <p>bringing paradise to your plate</p>
+            <p>bringing you the perfect kitchen buddies</p>
          </div>
          <div className='center'>
             <p>copyright@2023</p>
