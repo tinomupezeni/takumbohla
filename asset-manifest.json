@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/takumbohla/static/css/main.5b8cc0c0.css",
-    "main.js": "/takumbohla/static/js/main.1dce7488.js",
+    "main.js": "/takumbohla/static/js/main.90360eb7.js",
     "static/js/787.1ce3b9d3.chunk.js": "/takumbohla/static/js/787.1ce3b9d3.chunk.js",
     "static/media/vegetables.jpg": "/takumbohla/static/media/vegetables.fc3dcf1dc612452afbb3.jpg",
     "static/media/beans.jpg": "/takumbohla/static/media/beans.76da585e3a9ec1ba882e.jpg",
@@ -19,6 +19,7 @@
     "static/media/frenchfries.jpg": "/takumbohla/static/media/frenchfries.8adabb0aee7e31fb6536.jpg",
     "static/media/rice.jpg": "/takumbohla/static/media/rice.a65cf82cceda0f7ee140.jpg",
     "static/media/peppers.jpg": "/takumbohla/static/media/peppers.c0650b8867ce61325085.jpg",
+    "static/media/sauce.jpg": "/takumbohla/static/media/sauce.4b57547bd70a7c2e7df0.jpg",
     "static/media/fish.jpg": "/takumbohla/static/media/fish.a404f09a02680b290dc9.jpg",
     "static/media/frenchtoast1.jpg": "/takumbohla/static/media/frenchtoast1.380306a0749e9c048026.jpg",
     "static/media/stews.jpg": "/takumbohla/static/media/stews.8aa6d5d943d07337ec38.jpg",
@@ -26,11 +27,11 @@
     "static/media/cloves1.jpg": "/takumbohla/static/media/cloves1.407303c3394d935b150a.jpg",
     "index.html": "/takumbohla/index.html",
     "main.5b8cc0c0.css.map": "/takumbohla/static/css/main.5b8cc0c0.css.map",
-    "main.1dce7488.js.map": "/takumbohla/static/js/main.1dce7488.js.map",
+    "main.90360eb7.js.map": "/takumbohla/static/js/main.90360eb7.js.map",
     "787.1ce3b9d3.chunk.js.map": "/takumbohla/static/js/787.1ce3b9d3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5b8cc0c0.css",
-    "static/js/main.1dce7488.js"
+    "static/js/main.90360eb7.js"
   ]
 }
