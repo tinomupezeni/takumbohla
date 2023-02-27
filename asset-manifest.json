@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/takumbohla/static/css/main.5b8cc0c0.css",
-    "main.js": "/takumbohla/static/js/main.b399a3b2.js",
+    "main.js": "/takumbohla/static/js/main.1dce7488.js",
     "static/js/787.1ce3b9d3.chunk.js": "/takumbohla/static/js/787.1ce3b9d3.chunk.js",
     "static/media/vegetables.jpg": "/takumbohla/static/media/vegetables.fc3dcf1dc612452afbb3.jpg",
     "static/media/beans.jpg": "/takumbohla/static/media/beans.76da585e3a9ec1ba882e.jpg",
@@ -26,11 +26,11 @@
     "static/media/cloves1.jpg": "/takumbohla/static/media/cloves1.407303c3394d935b150a.jpg",
     "index.html": "/takumbohla/index.html",
     "main.5b8cc0c0.css.map": "/takumbohla/static/css/main.5b8cc0c0.css.map",
-    "main.b399a3b2.js.map": "/takumbohla/static/js/main.b399a3b2.js.map",
+    "main.1dce7488.js.map": "/takumbohla/static/js/main.1dce7488.js.map",
     "787.1ce3b9d3.chunk.js.map": "/takumbohla/static/js/787.1ce3b9d3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5b8cc0c0.css",
-    "static/js/main.b399a3b2.js"
+    "static/js/main.1dce7488.js"
   ]
 }
