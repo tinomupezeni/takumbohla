@@ -12,6 +12,7 @@ import vagetables from '../assets/vegetables.jpg'
 import chillihot from '../assets/chillihot.jpg'
 import sprinkling from '../assets/sprinkling.jpg'
 import peppers from '../assets/peppers.jpg'
+import sauce from '../assets/sauce.jpg'
 
 export const IngredientsDataList = [
   {
@@ -147,7 +148,7 @@ export const IngredientsDataList = [
   },
   {
     id : 14,
-    image : stews,
+    image : sauce,
     heading: "sauces",
     list: [
       "very hot chilli sauce",
