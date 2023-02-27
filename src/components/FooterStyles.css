@@ -1,0 +1,45 @@
+.footer{
+   background-color: #000;
+   color: #fff;
+   display: flex;
+   padding: 5%;
+   justify-content: space-between;
+   text-align: center;
+   align-items: center;
+}
+.right{
+   display: flex;
+   flex-direction: column;
+}
+.right a{
+   padding: 10px 0;
+   cursor: pointer;
+   text-decoration: none;
+   color: #fff;
+   transition: .3s ease-in-out;
+}
+
+.right i{
+   padding: 0 10px;
+}
+
+.right a:hover{
+   color: #25D366;
+}
+
+.right h5{
+   font-size: 1.4rem;
+}
+
+@media screen and (max-width:650px) {
+   .footer{
+      flex-direction: column;
+      padding-bottom: 8%;
+   }
+   .footer div{
+      padding-bottom: 2rem;
+   }
+   .right{
+      display: flex;
+   }
+}

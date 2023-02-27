@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.NavBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-transform: capitalize;
+  background-color: #fff;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+  padding: 1rem 2rem;
+  z-index: 9999;
+  position: fixed;
+  height: 80px;
+  width: 95%;
+  border-radius: 13px;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.order {
+  background-color: #5f5f5f;
+  border-radius: 4px;
+  color: #fff !important;
+  overflow: hidden;
+}
+
+.logo {
+  justify-content: space-around;
+  font-size: 2rem;
+}
+
+li {
+  list-style: none;
+}
+
+.link {
+  color: #000;
+  padding: 10px;
+  font-size: 1.4rem;
+  text-decoration: none;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.links .link:hover {
+  border-radius: 4px;
+  color: #fff;
+  background-color: #000;
+}
+
+.menu-icons {
+  display: none;
+}
+
+.order :hover {
+  color: #fff !important;
+}
+/*------------displaying orders ------ */
+.orders {
+  background-color: #fff;
+  margin-top: 10%;
+  margin-left: 30%;
+  position: fixed;
+  z-index: 9999;
+  width: 50%;
+  left: 20%;
+  transform: translate(-50%);
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+.orders.activation {
+  display: none;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+}
+.orderBottom.activated{
+  display: none;
+}
+.orderBottom {
+  background-color: #5f5f5fb4;
+  position: fixed;
+  left: 84%;
+  bottom: 87.5%;
+  font-size: 1.5rem;
+  z-index: 9999;
+  padding: 10px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.displayOrders {
+  z-index: 9999;
+  position: fixed;
+  top: 16%;
+  left: 50%;
+  width: 40%;
+  transform: translate(-50%);
+  background-color: #fff;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+  max-height: 100%;
+}
+
+.top-bar i {
+  color: rgb(187, 6, 6);
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+/*------------*/
+@media screen and (max-width: 850px) {
+  .NavBar {
+    z-index: 1;
+    justify-content: space-between;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #fff;
+    width: 100%;
+    margin-right: 5px;
+    height: auto;
+    border-radius: 13px;
+    position: absolute;
+    top: 0;
+    left: -110%;
+    opacity: 0;
+    align-items: stretch;
+    text-align: center;
+    padding: 80px 0 30px 0;
+    margin: 0;
+  }
+
+  .links.active {
+    left: 0;
+    opacity: 1;
+    z-index: -1;
+  }
+  .menu-icons {
+    display: block;
+  }
+  .menu-icons i {
+    cursor: pointer;
+    display: block;
+  }
+  .link {
+    display: block;
+    flex-direction: column;
+    font-size: 1.4rem;
+    width: 100%;
+    padding: 2rem 0;
+    margin-right: 1%;
+  }
+  .link:hover {
+    background-color: #000;
+    transition: none;
+  }
+
+  .order {
+    width: 80%;
+    border-radius: 4px;
+    left: 50%;
+    transform: translate(13%);
+  }
+
+  .orderBottom {
+    display: block;
+    position: fixed;
+    top: 91%;
+    height: 50px;
+    z-index: 9999;
+    color: #fff;
+    margin-right: 10px;
+    font-size: 1.5rem;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .orderBottom.activated{
+    display: none;
+    position: fixed;
+    top: 91%;
+    height: 50px;
+    background-color: #000;
+    cursor: pointer;
+    z-index: 9999;
+    color: #fff;
+    font-size: 1.5rem;
+    left: 50%;
+    padding: 10px ;
+    transform: translate(-50%);
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+  }
+  .displayOrders {
+    width: 70%;
+  }
+
+  .top-bar {
+    display: flex;
+    margin-top: 0;
+    border: 1px solid red;
+    padding: 0;
+    width: 100%;
+  }
+  .top-bar h1 {
+    font-size: 1.3em;
+  }
+}
